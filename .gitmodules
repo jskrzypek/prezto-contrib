@@ -19,3 +19,7 @@
 [submodule "fzy/external"]
 	path = fzy/external
 	url = https://github.com/aperezdc/zsh-fzy.git
+[submodule "iterm2"]
+	path = iterm2
+	url = https://github.com/jskrzypek/iTerm2-shell-integration.git
+	branch = js/zsh-module
