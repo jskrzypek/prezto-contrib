@@ -11,7 +11,7 @@ if (( ! ${+commands[kubectl]} )); then
 fi
 
 # Enable completion for 'kubectl'.
-cache_file="${0:h}/cache.zsh"
+cache_file="$HOME/cache.zsh"
 kubectl_command="${commands[kubectl]}"
 
 if [[ "${kubectl_command}" -nt "${cache_file}" || ! -s "${cache_file}" ]]; then

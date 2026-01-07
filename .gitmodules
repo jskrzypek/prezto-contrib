@@ -19,3 +19,6 @@
 [submodule "fzy/external"]
 	path = fzy/external
 	url = https://github.com/aperezdc/zsh-fzy.git
+[submodule "fzf"]
+	path = fzf
+	url = https://github.com/lildude/fzf-prezto
